@@ -1,0 +1,70 @@
+
+#imgcon{
+    width:400px;
+    height: 400px;
+    margin: 0 auto;
+    border-top-left-radius:8px;
+    border-top-right-radius: 8px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+/* info  cntainer*/
+.label{
+    font-family: 'ubuntu',sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+.info p{
+    font-family: 'ubuntu',sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #000000;      
+
+
+}
+.info{
+    width:400px;
+    height: 100px;
+    white-space:nowrap;
+    margin: 0 ;
+    background-image:linear-gradient(to bottom right,#434343 0%,black 100%);
+    border-bottom-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+ 
+}
+
+p{
+    padding: 0px;
+    margin: 0px;
+}
+h1{
+    color: #534a4a;
+
+}
+p:hover, h1:hover{
+    color: rgb(202, 91, 178);
+}
+
+
+.outer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    height: 100%;
+   
+}
+#imgcon ,.info{
+    box-shadow: 10px 10px 940px   darkblue;
+    
+}
+ 
